@@ -28,7 +28,6 @@ const BookingForm: FC<BookingFormProps> = ({ availableTimes, dispatch, ...props 
       if (response) {
         localStorage.setItem("Bookings", JSON.stringify(values));
         navigate("/confirmation");
-        // console.log(values);
       };
     },
     validationSchema: Yup.object({

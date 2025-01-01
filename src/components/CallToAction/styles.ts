@@ -15,7 +15,6 @@ export const Container = styled.div<HTMLAttributes<HTMLDivElement>>`
   ::before {
     content: "";
     width: 100%;
-    height: 31rem;
     background-color: ${({ theme }) => theme.colors.primary};
     position: absolute;
     top: 0;
