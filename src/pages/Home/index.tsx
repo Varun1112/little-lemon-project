@@ -3,6 +3,8 @@ import { Container } from "./styles";
 import Header from "../../components/Header";
 import CallToAction from "../../components/CallToAction";
 import Specials from "../../components/Specials";
+import CustomersSay from "../../components/CustomersSay";
+import Footer from "../../components/Footer";
 
 const Home: FC = (): JSX.Element => {
   return (
@@ -10,6 +12,8 @@ const Home: FC = (): JSX.Element => {
       <Header />
       <CallToAction />
       <Specials />
+      <CustomersSay />
+      <Footer/>
     </Container>
   );
 };
