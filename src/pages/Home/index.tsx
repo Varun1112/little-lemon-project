@@ -1,8 +1,12 @@
 import { FC } from "react";
+import { Container } from "./styles";
+import Header from "../../components/Header";
 
 const Home: FC = (): JSX.Element => {
   return (
-    <div>Home Page</div>
+    <Container>
+      <Header />
+    </Container>
   );
 };
 
